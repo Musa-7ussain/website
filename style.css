@@ -1,0 +1,63 @@
+/* --- ملف تنسيق style.css --- */
+
+/* إعدادات عامة للصفحة لجعلها في المنتصف عمودياً وأفقياً */
+body {
+    font-family: 'Arial', sans-serif; /* نوع الخط */
+    background-color: #f4f7f6; /* لون خلفية مريح للعين */
+    margin: 0;
+    display: flex; /* Flexbox طريقة حديثة للترتيب */
+    justify-content: center; /* توسيط أفقي */
+    align-items: center; /* توسيط عمودي */
+    min-height: 100vh; /* جعل الـ body يأخذ طول الشاشة الكامل */
+    color: #333; /* لون النص */
+}
+
+/* تنسيق الحاوية الرئيسية للمحتوى */
+.main-container {
+    background-color: #ffffff; /* خلفية بيضاء */
+    padding: 40px; /* مسافة داخلية */
+    border-radius: 15px; /* حواف دائرية */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* ظل خفيف ليبرز العنصر */
+    text-align: center; /* توسيط كل النصوص والأيقونات بالداخل */
+    width: 90%; /* عرض مرن يناسب الهواتف */
+    max-width: 500px; /* أقصى عرض على الكمبيوتر */
+}
+
+/* تنسيق قائمة التنقل */
+nav {
+    margin-bottom: 25px; /* مسافة تحت القائمة */
+    border-bottom: 1px solid #eee; /* خط فاصل */
+    padding-bottom: 15px;
+}
+
+/* تنسيق الروابط */
+nav a {
+    text-decoration: none; /* إزالة الخط تحت الرابط */
+    color: #555; /* لون الرابط الأساسي */
+    margin: 0 15px; /* مسافة بين الروابط */
+    font-weight: bold;
+    transition: color 0.3s; /* تأثير عند تمرير الفأرة */
+}
+
+nav a:hover {
+    color: #3498db; /* يتغير اللون للأزرق عند التمرير */
+}
+
+/* تنسيق الأيقونات (نجعلها كبيرة وملونة) */
+.page-icon {
+    font-size: 60px; /* حجم كبير للأيقونة */
+    color: #3498db; /* لون أزرق جذاب */
+    margin-bottom: 15px; /* مسافة تحت الأيقونة */
+}
+
+/* تنسيق العناوين والفقرات */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 1.6; /* مسافة بين السطور */
+    color: #666;
+}
